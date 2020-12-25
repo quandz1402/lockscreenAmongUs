@@ -111,7 +111,7 @@
             android:id="@+id/wallpaper"
             android:layout_width="220dp"
             android:layout_height="wrap_content"
-            android:src="@mipmap/btn_setWallpaper" />
+            android:src="@mipmap/btn_setwallpaper" />
     </LinearLayout>
 
     <TextView

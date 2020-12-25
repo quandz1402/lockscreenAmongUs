@@ -11,6 +11,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.GridLayout;
+import android.widget.ImageView;
 
 import com.lockscreenamongus.R;
 import com.lockscreenamongus.utils.RecyclerItemClickListener;
@@ -24,6 +25,7 @@ public class ListWallpaper extends AppCompatActivity {
     private List<Wallpaper> wallpapersList = new ArrayList<>();
     private RecyclerView recyclerView;
     private wallpaperAdapter mAdapter;
+    private ImageView back;
     @SuppressLint("WrongConstant")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -32,7 +34,13 @@ public class ListWallpaper extends AppCompatActivity {
         recyclerView =findViewById(R.id.rcw_icream1);
 
 
-
+        back =findViewById(R.id.back);
+        back.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                finish();
+            }
+        });
         mAdapter = new wallpaperAdapter(wallpapersList);
         RecyclerView.LayoutManager mLayoutManager = new LinearLayoutManager(ListWallpaper.this);
         recyclerView.setLayoutManager(mLayoutManager);

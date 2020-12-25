@@ -28,6 +28,7 @@ public class set_wallpaper extends AppCompatActivity {
         setWallpaper.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                MainActivity.showInterFb(set_wallpaper.this);
                 setWallpaper();
             }
         });

@@ -164,7 +164,7 @@ public class MainActivity extends AppCompatActivity {
         wallpaper.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent myIntent = new Intent(getApplicationContext(), set_wallpaper.class);
+                Intent myIntent = new Intent(getApplicationContext(), ListWallpaper.class);
                 startActivity(myIntent);
 
             }

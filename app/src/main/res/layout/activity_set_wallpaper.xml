@@ -17,7 +17,7 @@
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:paddingBottom="100dp"
-        android:src="@mipmap/btn_set"
+        android:src="@mipmap/btn_setwall"
         android:layout_height="wrap_content"/>
     <ImageView
         android:id="@+id/back"
