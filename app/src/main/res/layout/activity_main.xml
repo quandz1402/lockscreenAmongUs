@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="@mipmap/bg2"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:paddingLeft="16dp"
+    android:paddingTop="16dp"
+    android:paddingRight="16dp"
+    tools:context=".MainActivity">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1" />
+
+    <RelativeLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_alignParentEnd="true"
+            android:id="@+id/support"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="30dp"
+            android:src="@mipmap/question"
+            app:tint="#FE0000" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/shape"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <LinearLayout
+            android:id="@+id/setLockScreen"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/btn_lockscreen" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+            <ImageView
+                android:id="@+id/btn_lockScreen"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/btn_off" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/setVideo"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="90dp"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/btn_video" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+            <ImageView
+                android:id="@+id/btn_video"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/btn_off" />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/preview"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/btn_preview" />
+
+        <ImageView
+            android:id="@+id/changPassWord"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/btn_changepassword" />
+
+        <ImageView
+            android:id="@+id/changeQuestion"
+            android:layout_width="240dp"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/btn_security" />
+        <ImageView
+            android:id="@+id/wallpaper"
+            android:layout_width="220dp"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/btn_setWallpaper" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="10dp"
+        android:paddingTop="5dp"
+        android:text="System Setting."
+        android:textColor="@color/colorWhite"
+        android:textSize="14dp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/disable_lock"
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:layout_marginBottom="10dp"
+        android:src="@mipmap/permission2" />
+    <ImageView
+        android:id="@+id/permission"
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:src="@mipmap/permission" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1" />
+
+    <LinearLayout
+        android:id="@+id/adMobView"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+
+        android:gravity="center"
+        android:orientation="vertical" />
+
+
+</LinearLayout>

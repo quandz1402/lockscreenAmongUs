@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">AmongLock - Among Imposter Lock Screen and Wallpaper HD</string>
+
+    <string name="permission_accessibility_setting_description">"Turn on and it locks all soft key including HOME, RECENTS, BACK, MENU buttons.
+
+You may be warned about potential privacy risk, that's just a regular informative warning for any accessibility service. We promise NEVER EVER collecting your personal information in this accessibility service."</string>
+    <string name="permission_device_admin_description">This application requires your permission for lock your own phone when the lockscreen is not unlocked too long</string>
+    <string name="admin_receiver_status_disable_warning">Your phone will stay awake if you don\'t grant this permission</string>
+</resources>

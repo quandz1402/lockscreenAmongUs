@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FF6109</color>
+    <color name="colorPrimaryDark">#EA5400</color>
+    <color name="colorAccent">#FF8D4E</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorBlack">#000000</color>
+
+    <color name="dialog_primary">#FFB900</color>
+    <color name="dialog_primary_dark">#FFB900</color>
+    <color name="dialog_primary_light">#FFFFFF</color>
+    <color name="dialog_text_foreground">@android:color/white</color>
+
+</resources>

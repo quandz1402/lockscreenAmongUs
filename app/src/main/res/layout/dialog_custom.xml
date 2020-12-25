@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <TextView
+        android:paddingTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="10dp"
+
+        android:text="Security Question and Answer"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimary"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="10dp"
+        android:text="Before creating a password, you must create a security question and answer. So you can set a new password when you forget your password.   !"
+        android:textAlignment="center"
+        android:textColor="@color/colorWhite"
+        android:textSize="16sp" />
+
+    <Spinner
+        android:id="@+id/spinnerQuestion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:background="@android:drawable/btn_dropdown"
+        android:outlineSpotShadowColor="@color/colorAccent"
+        android:spinnerMode="dropdown" />
+
+    <EditText
+        android:id="@+id/answer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="#ffffff"
+        android:hint="Answer"
+        android:padding="10dp" />
+
+    <ImageView
+        android:id="@+id/saveAnswer"
+        android:layout_width="100dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:paddingTop="15dp"
+        android:src="@mipmap/btn_save" />
+</LinearLayout>
